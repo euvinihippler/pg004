@@ -1,1 +1,1 @@
-Console.WriteLine("Professor show de bols");
+Console.WriteLine("Professor");
