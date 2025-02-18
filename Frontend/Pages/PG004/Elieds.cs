@@ -2,11 +2,11 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace GettingStarted.Frontend.Pages.PG004;
 
-public class IndexModel : PageModel
+public class EliedsModel : PageModel
 {
-    private readonly ILogger<IndexModel> _logger;
+    private readonly ILogger<EliedsModel> _logger;
 
-    public IndexModel(ILogger<IndexModel> logger)
+    public EliedsModel(ILogger<EliedsModel> logger)
     {
         _logger = logger;
     }

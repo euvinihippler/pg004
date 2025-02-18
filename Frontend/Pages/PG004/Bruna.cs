@@ -2,11 +2,11 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace GettingStarted.Frontend.Pages.PG004;
 
-public class IndexModel : PageModel
+public class BrunaModel : PageModel
 {
-    private readonly ILogger<IndexModel> _logger;
+    private readonly ILogger<BrunaModel> _logger;
 
-    public IndexModel(ILogger<IndexModel> logger)
+    public BrunaModel(ILogger<BrunaModel> logger)
     {
         _logger = logger;
     }
